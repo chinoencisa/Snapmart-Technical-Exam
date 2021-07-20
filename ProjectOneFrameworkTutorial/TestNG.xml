@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name ="projetoneXML">
+
+	<listeners>
+		<listener class-name="Utilities.Reporting"/>
+	</listeners>
+
+	<test name = "ProjectOne Test">
+	<parameter name="browser" value="chrome" />
+	<classes>
+		<class name="TestCases.TC_Registration" />
+		<class name="TestCases.TC_CreateOrder" />
+	
+	</classes>
+	
+	
+	
+	
+	</test>
+</suite>

@@ -1,0 +1,5 @@
+READ ME
+1. Open Configuration > config.properties
+2. Change email value
+3. Save the file
+4. Run TestNG.xml

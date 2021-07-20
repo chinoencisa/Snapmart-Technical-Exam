@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="projetoneXML" duration-ms="37398" started-at="2021-07-21T01:43:59 PST" finished-at="2021-07-21T01:44:36 PST">
+    <groups>
+    </groups>
+    <test name="ProjectOne Test" duration-ms="37398" started-at="2021-07-21T01:43:59 PST" finished-at="2021-07-21T01:44:36 PST">
+      <class name="TestCases.TC_CreateOrder">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:TestCases.TC_CreateOrder@1563da5]" name="setup" is-config="true" duration-ms="2242" started-at="2021-07-21T01:44:06 PST" finished-at="2021-07-21T01:44:09 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:TestCases.TC_CreateOrder@1563da5]" name="LoginTest" duration-ms="4463" started-at="2021-07-21T01:44:09 PST" finished-at="2021-07-21T01:44:13 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="SelectProduct()[pri:0, instance:TestCases.TC_CreateOrder@1563da5]" name="SelectProduct" duration-ms="4805" started-at="2021-07-21T01:44:13 PST" depends-on-methods="TestCases.TC_CreateOrder.LoginTest" finished-at="2021-07-21T01:44:18 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectProduct -->
+        <test-method status="PASS" signature="Address()[pri:0, instance:TestCases.TC_CreateOrder@1563da5]" name="Address" duration-ms="9846" started-at="2021-07-21T01:44:18 PST" depends-on-methods="TestCases.TC_CreateOrder.SelectProduct" finished-at="2021-07-21T01:44:28 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Address -->
+        <test-method status="PASS" signature="Payment()[pri:0, instance:TestCases.TC_CreateOrder@1563da5]" name="Payment" duration-ms="8734" started-at="2021-07-21T01:44:28 PST" depends-on-methods="TestCases.TC_CreateOrder.Address" finished-at="2021-07-21T01:44:36 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Payment -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.TC_CreateOrder@1563da5]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-07-21T01:44:36 PST" finished-at="2021-07-21T01:44:36 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC_CreateOrder -->
+      <class name="TestCases.TC_Registration">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:TestCases.TC_Registration@ea1a8d5]" name="setup" is-config="true" duration-ms="3151" started-at="2021-07-21T01:43:59 PST" finished-at="2021-07-21T01:44:02 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="UserRegistration()[pri:0, instance:TestCases.TC_Registration@ea1a8d5]" name="UserRegistration" duration-ms="4009" started-at="2021-07-21T01:44:02 PST" finished-at="2021-07-21T01:44:06 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserRegistration -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.TC_Registration@ea1a8d5]" name="tearDown" is-config="true" duration-ms="1" started-at="2021-07-21T01:44:06 PST" finished-at="2021-07-21T01:44:06 PST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.TC_Registration -->
+    </test> <!-- ProjectOne Test -->
+  </suite> <!-- projetoneXML -->
+</testng-results>
